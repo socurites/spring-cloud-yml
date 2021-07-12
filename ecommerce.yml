@@ -1,5 +1,5 @@
 gateway:
   ip: 192.168.0.10
 token:
-  expiration-time: 1813
+  expiration-time: 1823
   secret: any-token-secret
