@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb   # needed after boot-2.5 /w data-jpa dependency
+	  username: sa
+  profiles:
+    include:
+      - gateway
+
