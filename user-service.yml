@@ -1,7 +1,7 @@
 spring:
   datasource:
     url: jdbc:h2:mem:testdb   # needed after boot-2.5 /w data-jpa dependency
-	  username: '{cipher}02475413d7766d8d6f068ef869fa754c6c8c6cbb575ba003a1636c3105320ad4'
+    username: '{cipher}02475413d7766d8d6f068ef869fa754c6c8c6cbb575ba003a1636c3105320ad4'
   profiles:
     include:
       - gateway
