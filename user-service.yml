@@ -8,5 +8,5 @@ spring:
 service:
   order-service:
     uri:
-      # get-orders: /order-service/orders/%s
+      # get-orders: /order-service/orders/%s   # when use @Loadbalanced, it's direct access to order-service, not through gateway
       get-orders: /orders/%s
