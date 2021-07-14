@@ -8,4 +8,4 @@ spring:
 service:
   order-service:
     uri:
-      get-orders: /orders/%s
+      get-orders: /order-service/orders/%s
