@@ -6,6 +6,6 @@ spring:
     include:
       - gateway
 service:
-  order-service: order-service
+  order-service:
     uri:
       get-orders: /orders/%s
