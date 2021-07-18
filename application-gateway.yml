@@ -4,3 +4,11 @@ gateway:
 token:
   expiration-time: 1801
   secret: any-token-secret-renewal
+---
+spring:
+  config:
+    activate:
+      on-profile: local-docker
+gateway:
+  ip: 172.10.0.4
+  port: 8080
